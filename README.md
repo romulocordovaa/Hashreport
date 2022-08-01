@@ -1,7 +1,7 @@
 # 🔎 Hashreport
 Bash scrpit desenvolvido para automatizar processo de hash e a saída dos dados se da por meio de um relatorio em formato txt7, desenvolvido para ser utlizado como uma ferramente que auxilia no processo de forense.
 
-# ⚙️ Requisitos
+# ❗ Requisitos
 O unico requisito necessário e baixar o Pulseaudio para possiblitar o alerta sonoro no fim do scrpit para sinalizar o fim do processo
 
 ### Instalar pulseaudio usando apt
@@ -19,4 +19,20 @@ sudo apt -y install pulseaudio
 # 💻 Instalação do Hashreport
 Pode baixar o arquivo clicando [aqui](https://www.genome.gov/). Se você preferir, você pode baixar clonanando o repositório Git:
 ```
+```
+# ⚙️ Uso
+- Após baixar o primeiro passo e alterar as permissões do arquivo:
+```
+chmod +x hashreport.sh
+```
+- Basta iniciar o scrpit:
+```
+./hashreport.sh
+```
+- Para acessar a ajuda basta iniciar o scrpit acompanhado de -h ou --help, onde mostrar tambem o -v ou --version que mostra qualversão esta em uso e 
+```
+./hashreport.sh -h
+```
+```
+./hashreport.sh --help
 ```
