@@ -1,48 +1,58 @@
-# 🔎 Hashreport
-Bash scrpit desenvolvido para automatizar processo de hash sha512sum e md5sum e a saída dos dados se da por meio de um relatorio em formato txt, o bash scrpit foi desenvolvido no estagio na Polícia Científica do Pará, com a ajuda do périto Natanael, para ser utlizado como uma ferramente que auxilia no processo de forense computacional.
+# 🔎 Hashreport V1.1
+Bash scrpit desenvolvido para automatizar processo de aquisição do hash com algoritmos SHA-512 e MD5, sendo o diferencial a saída dos dados ser por meio de um relatorio em formato txt, o bash scrpit foi desenvolvido no período de estagio na Polícia Científica do Pará, para ser utlizado para ajudar auxilia no processo de forense computacional.
 
 # ❗ Pré-requisito
-O unico requisito necessário e baixar o Pulseaudio para possiblitar o alerta sonoro do scrpit para sinalizar o fim do processo.
+O unico requisito necessário e habalitar o som do terminal, para que no final do precesso o alerta sonoro funcione.
 
-### Instalar pulseaudio usando apt
-
-O primeiro passo é atualiza a lista de pacotes e programas que podem ser instalados na máquina:
-```
-sudo apt update && sudo apt upgrade
-```
-Após atualizar o banco de dados do apt, podemos instalar o pulseaudio usando o apt executando o seguinte comando:
-```
-sudo apt install pulseaudio
-```
 # 💻 Baixar o Hashreport
-Pode baixar o arquivo clicando [aqui](https://www.genome.gov/). Se você preferir, você pode clonar o repositório Git:
+Se você prefirir pode baixar o scrpit clicando [aqui](https://downgit.github.io/#/home?url=https://github.com/romulocordovaa/Hashreport/blob/main/hashreport.sh). Ou  clonar o repositório Git:
 ```
 https://github.com/romulocordovaa/Hashreport.git
 ```
 # ⚙️ Uso
-- Após baixar o primeiro passo e alterar as permissões do arquivo, para que ele possa ser executado:
+Após baixar o primeiro passo e alterar as permissões do arquivo, para que ele possa ser executado:
 ```
 chmod +x hashreport.sh
 ```
-- Para iniciar o scrpit:
+Para iniciar o scrpit:
 ```
 sudo ./hashreport.sh
 ```
-- Para acessar a ajuda basta iniciar o scrpit acompanhado de -h ou --help, onde mostrar tambem o -v ou --version que mostra qual a versão esta em uso. 
+Para acessar a ajuda basta iniciar o scrpit acompanhado de -h ou --help, onde mostrar tambem o -v ou --version que mostra qual a versão esta em uso. 
 ```
 ./hashreport.sh -h
-```
-```
-./hashreport.sh --help
 ```
 <p align="center">
   <img src="https://user-images.githubusercontent.com/92320996/183473171-0b6c83bf-209e-409f-8713-1c31f914e310.png" />
 </p>
+Ao iniciar o scrpit ele vai listar todos os dispositvios e suas partições da maquina
 
-- Ao finalizar o processo sera gerado um relatorio igual ao apresentado abaixo:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/92320996/184411111-c4b7c548-94ea-48a7-b727-a61fb8747131.png" />
+</p>
+
+Após isso as unicas informações que vai ter que ser passadas na seguinte respectiva ordem:
+- Deseja realizar hash no dispositivo que faz de todas as partiçõe ou apenas de partições especificas
+
+- Tipo de hash MD5 ou SHA-512
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/92320996/184418193-e40f4301-fdcb-4217-a3b3-605984e0198b.png" />
+</p>
+
+- O Caminho do arquivo que será  salvo as informações
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/92320996/184418189-65cf3ee6-f3f4-44ed-b7d5-5147f7deb8b6.png" />
+</p>
+- Se caso ja tiver algum arquivo criado com o mesmo nome, vai ser perguntado se deseja apagar o conteudo e escrever um novo, caso contrario o scrpit é encerrado.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/92320996/184418179-b116de50-0e04-419a-8cbc-af4e25feb141.png" />
+</p>
+- Por fim depois disso o Processo e inciado e no fim, além do alerta sonoro, 00
+
+Ao finalizar o processo sera gerado um relatorio igual ao apresentado abaixo:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/92320996/183475682-4cbe01c4-95aa-49d9-907a-2afef78ef8eb.png" />
 </p>
 
 # 💬 Contato
-romulocordovaa@gmail.com
+romulo81@yahoo.com.br
