@@ -1,8 +1,8 @@
 # 🔎 Hashreport V1.1
-Bash scrpit desenvolvido para automatizar processo de aquisição do hash com algoritmos SHA-512 e MD5, sendo o diferencial a saída dos dados ser por meio de um relatorio em formato txt, o bash scrpit foi desenvolvido no período de estagio na Polícia Científica do Pará, para ser utlizado para ajudar auxilia no processo de forense computacional.
+Bash script desenvolvido para automatizar processo de aquisição do hash com algoritmos SHA-512 ou MD5, o diferencial seria a saída dos dados por meio de um relatorio em formato txt, o bash script foi feito no período de estagio na Polícia Científica do Pará, para ser utlizado para ajudar auxilia no processo de forense digital.
 
 # ❗ Pré-requisito
-O unico requisito necessário e habalitar o som do terminal, para que no final do precesso o alerta sonoro funcione.
+Apenas é necessário habilitar o som do terminal, para que ao final do precesso o alerta sonoro funcione.
 
 # 💻 Baixar o Hashreport
 Se você prefirir pode baixar o scrpit clicando [aqui](https://downgit.github.io/#/home?url=https://github.com/romulocordovaa/Hashreport/blob/main/hashreport.sh). Ou  clonar o repositório Git:
@@ -10,7 +10,7 @@ Se você prefirir pode baixar o scrpit clicando [aqui](https://downgit.github.io
 https://github.com/romulocordovaa/Hashreport.git
 ```
 # ⚙️ Uso
-Após baixar o primeiro passo e alterar as permissões do arquivo, para que ele possa ser executado:
+O primeiro passo e alterar as permissões do arquivo, para que ele possa ser executado:
 ```
 chmod +x hashreport.sh
 ```
@@ -43,11 +43,11 @@ Após isso as unicas informações que vai ter que ser passadas na seguinte resp
 <p align="center">
   <img src="https://user-images.githubusercontent.com/92320996/184418189-65cf3ee6-f3f4-44ed-b7d5-5147f7deb8b6.png" />
 </p>
-- Se caso ja tiver algum arquivo criado com o mesmo nome, vai ser perguntado se deseja apagar o conteudo e escrever um novo, caso contrario o scrpit é encerrado.
+- Se existir algum arquivo criado com o mesmo nome, vai ser perguntado se deseja apagar o conteudo e escrever um novo, caso contrario o scrpit é encerrado.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/92320996/184418179-b116de50-0e04-419a-8cbc-af4e25feb141.png" />
 </p>
-- Por fim depois disso o Processo e inciado e no fim, além do alerta sonoro, 00
+- Depois disso o processo e inciado e no fim, o alerta sonoro será ativado, 00
 
 Ao finalizar o processo sera gerado um relatorio igual ao apresentado abaixo:
 <p align="center">
