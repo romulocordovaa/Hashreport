@@ -1,5 +1,5 @@
 # 🔎 Hashreport V1.1
-Bash script desenvolvido para automatizar processo de aquisição do hash com algoritmos SHA-512 ou MD5, o diferencial seria a saída dos dados por meio de um relatorio em formato txt, o bash script foi feito no período de estagio na Polícia Científica do Pará, para ser utlizado para ajudar auxilia no processo de forense digital.
+Bash script desenvolvido para automatizar processo de aquisição do hash com algoritmos SHA-512 ou MD5, o diferencial seria a saída dos dados por meio de um relatorio em formato txt, o bash script foi feito no período de estagio na Polícia Científica do Pará, para ser utlizado para auxiliar no processo de forense digital.
 
 # ❗ Pré-requisito
 Apenas é necessário habilitar o som do terminal, para que ao final do precesso o alerta sonoro funcione.
